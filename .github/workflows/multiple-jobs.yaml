@@ -1,10 +1,11 @@
 name: Needs keyword- multiple jobs
 
 on:
-   schedule:
-     - cron: "*/1 * * * *"   
+    workflow_dispatch: 
+#    schedule:
+#      - cron: "*/1 * * * *"   
     # push
-    
+
 
 jobs:
   build_job_1:
